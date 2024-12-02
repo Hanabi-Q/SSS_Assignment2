@@ -4,7 +4,7 @@ from tensorflow.keras.layers import Dense
 from tensorflow.keras.layers import Dropout
 from tensorflow.keras.layers import Flatten
 from tensorflow.keras.layers import LSTM
-from tensorflow.keras.layers import Conv1D  # 从 keras.layers.convolutional 改为 tensorflow.keras.layers
+from tensorflow.keras.layers import Conv1D 
 from tensorflow.keras.layers import MaxPooling1D
 from tensorflow.keras.models import load_model
 from tensorflow.keras.layers import Embedding
