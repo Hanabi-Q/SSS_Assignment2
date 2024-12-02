@@ -1,0 +1,5 @@
+Due to the capacity limit of GitHub, the data file cannot be transferred. Please refer to the link https://github.com/LauraWartschinski/VulnerabilityDetection to download the corresponding file
+Download address: https://zenodo.org/records/3559480#.XeTMzdVG2Hs
+This folder should contain other files:
+pythontraining_withoutString_X
+pythontraining_withString_X

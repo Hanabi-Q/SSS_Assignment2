@@ -1,0 +1,30 @@
+Training the w2v model:
+python wvfileSave.py
+
+Check out the performance of the LSTM model:
+python trymodel.py xss
+python trymodel.py remote_code_execution
+python trymodel.py sql
+
+Train CNN+ResNet model:
+python makemodel2.py xss
+python makemodel2.py remote_code_execution
+python makemodel2.py sql
+
+Check out the performance of the CNN+ResNet model:
+python trymodel2.py xss
+python trymodel2.py remote_code_execution
+python trymodel2.py sql
+
+Demo of checking for vulnerabilities:
+python demonstrate.py xss 1 fine
+python demonstrate.py xss 2 fine
+python demonstrate.py xss 3 fine
+
+python demonstrate.py remote_code_execution 1 fine
+python demonstrate.py remote_code_execution 2 fine
+python demonstrate.py remote_code_execution 3 fine
+
+python demonstrate.py path_disclosure 1 fine
+python demonstrate.py path_disclosure 2 fine
+python demonstrate.py path_disclosure 3 fine
